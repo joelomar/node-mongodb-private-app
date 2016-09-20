@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8"> 
+<script>
+    //alert('ddddd');
+</script>
+<style>
+
+h1 {
+   
+   text-align: center;
+   color: #30B6E2;
+
+
+}
+
+body {
+
+   /*background-image: url("./img/back_stars.jpg");*/
+   background-color: #C5E0FB;
+
+}
+
+#head_back {
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 5%;
+    background-color: #30B6E2;
+
+}
+
+a {
+
+   color: #000000;
+
+}
+
+#form {
+        
+        margin: 70px 500px 100px 500px;
+        padding: 10px 50px 30px 90px;
+        background: linear-gradient(white 97%, yellow);
+        box-shadow: 0px 0px 10px 0.5px #000000;
+        opacity: 0.9;
+        border-radius: 3px;  
+
+
+}
+
+
+#feed_one {
+
+    color: #ffffff;
+    text-align: center;
+
+
+}
+
+#link_data {
+
+    color: #ffffff;
+    margin: auto;
+    width: 5%;
+
+
+}
+
+#link_chat {
+
+    color: #ffffff;
+    margin: auto;
+    width: 5%;
+
+
+}
+
+</style>
+</head>
+<body>
+  <div id="head_back"></div>
+  <br>
+  <br>
+  <h1>{ register }</h1> 
+
+  <div id="form">
+  <form action="/register" method="POST">
+      <p>Name:</p>
+      <input type="text" name="firstname" id="name_sign">
+      <br>
+      <p>Lastname:</p>
+      <input type="text" name="lastname" id="last_sign">
+      <br>
+      <p>Email:</p>
+      <input type="text" name="email" id="email_sign">
+      <br>
+      <p>Username:</p>
+      <input type="text" name="username" id="user_sign">
+      <br>
+      <p>Password:</p>
+      <input type="password" name="password" id="pass_sign">
+      <br>
+      <br>
+      <input type="submit" id="but_sign" value="register">
+      <br>
+      <br>
+      <a href="http://localhost:3000">Back to home</a>
+    </form>
+    </div>
+  
+</body>
+</html>
