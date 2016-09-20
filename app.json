@@ -1,5 +1,5 @@
 {
-  "name": "Heroku: Node.js",
+  "name": "Heroku: server.js",
   "description": "Node Private App",
   "repository": "https://github.com/joelomar/node-mongodb-private-app",
   "keywords": ["node", "express", "static"],
