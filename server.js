@@ -5,6 +5,8 @@ var express = require('express'),
     server = require('http').Server(app),
     bodyParser = require('body-parser'),
     io = require('socket.io')(server);
+    
+    var port = process.env.PORT || 5000;
 
 
 //---------App Routes and Auth----------// 
@@ -163,7 +165,7 @@ io.on('connection', function (socket) {
 
 //-------------Server listen-------------//
 
-server.listen(process.env.PORT || 5000, function() {
+server.listen(port, function() {
 
     console.log('exp server waiting for connections in port 3000');
 });
