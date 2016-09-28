@@ -1,6 +1,6 @@
 var mongoose = require('mongoose'),
     app = require('./server'),
-    url = 'mongodb://joelomar:devel0p3r@ds035826.mlab.com:35826/private_chat';
+    url = 'mongodb://user:pass@m1937783.mlab.com:284768/private_chat';
 
 mongoose.connect(url);
 
